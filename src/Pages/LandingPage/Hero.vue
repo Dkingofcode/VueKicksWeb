@@ -491,23 +491,24 @@ const mobileScreen = window.innerWidth <= 650;
 
 @media (max-width: 650px) {
 .heroImg{
+  
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
-    height: 70vh;
+    width: 98%;
+    height: 50vh;
     
 }
 
 .ImageBlock{
-    width: 100%;
-    height: 70vh;
+    width: 98%;
+    height: 50vh;
 }
 
 .heroImg .main{
-    width: 100%;
-    height: 70vh;
+    width: 98%;
+    height: 50vh;
 }
 
 
