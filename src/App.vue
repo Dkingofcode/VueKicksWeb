@@ -3,15 +3,17 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import TheHeader from './components/UI/TheHeader.vue';
 import LandingPage from "./Pages/LandingPage/index.vue";
+import LoginPage from './Pages/Auth/LoginPage.vue';
+import RegisterPage from './Pages/Auth/RegisterPage.vue';
 </script>
 
 <template>
   <!-- <header>
     <TheHeader  />
   </header> -->
-
+  <router-view />
   <main>
-    <LandingPage  />
+    <router-view />
   </main>
 </template>
 
