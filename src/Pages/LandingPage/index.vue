@@ -11,7 +11,7 @@ import Footer from './Footer.vue';
 
 <template>
     <div class="main">
-      <TheHeader  />
+      <!-- <TheHeader  /> -->
 
       <div class="hero">
         <div style="display: flex; justify-content: center;">

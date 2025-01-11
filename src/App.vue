@@ -7,11 +7,10 @@ import LoginPage from './Pages/Auth/LoginPage.vue';
 import RegisterPage from './Pages/Auth/RegisterPage.vue';
 </script>
 
-<template>
-  <!-- <header>
+<template class="main">
+  <header>
     <TheHeader  />
-  </header> -->
-  <router-view />
+  </header>
   <main>
     <router-view />
   </main>
@@ -20,6 +19,10 @@ import RegisterPage from './Pages/Auth/RegisterPage.vue';
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+.main{
+  background-color: rgb(213, 213, 213);
 }
 
 .logo {

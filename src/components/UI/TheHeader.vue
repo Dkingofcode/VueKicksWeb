@@ -94,15 +94,16 @@ onBeforeUnmount(() => {
       <UserAccount />
     </div>
 
-</div>
-  </header>
+   </div>
+</header>
 
 </template>
 
 <style scoped>
 .navigation {
-  background:  rgb(213, 213, 213);;
+  background:  rgb(213, 213, 213);
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
   padding: 0px 10px;

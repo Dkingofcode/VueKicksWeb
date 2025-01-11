@@ -24,7 +24,7 @@ const handleRegister = () => {
           <input type="text" id="first-name" v-model="firstname" required />
           
           <label for="lastname">LastName</label>
-          <input type="text" id="first-name" v-model="lastname" required />
+          <input type="text" id="last-name" v-model="lastname" required />
 
             <label for="password">Password</label>
             <input type="password" id="password" />
@@ -42,6 +42,7 @@ const handleRegister = () => {
             <style scoped>
             .registerPage {
             display: flex;
+            background-color: rgb(213, 213, 213);
             justify-content: center;
             align-items: center;
             height: 100vh;

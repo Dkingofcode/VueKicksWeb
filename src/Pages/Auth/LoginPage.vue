@@ -10,6 +10,7 @@ const handleLogin = () => {
 </script>
 
 <template>
+
   <div class="LoginPage">
     <div class="LoginForm">
       <h2>Login</h2>
@@ -34,6 +35,7 @@ const handleLogin = () => {
             <style scoped>
             .LoginPage {
             display: flex;
+            background-color: rgb(213, 213, 213);
             justify-content: center;
             align-items: center;
             height: 100vh;
