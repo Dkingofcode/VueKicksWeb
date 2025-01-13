@@ -53,11 +53,20 @@ const handleRegister = () => {
             <label for="email">Login Details</label>
             <input type="email" id="email" placeholder="Email" />
             <input type="password" id="confirmPassword" />
-             <p>Minimum 8 characters with at least one uppercase, one lowercase, one special character and a number</p>
+             <p style="font-size: 12px;">Minimum 8 characters with at least one uppercase, one lowercase, one special character and a number</p>
              
-             <input  type="checkbox" /><p>By clicking 'Log In' you agree to our website Kicks<a>Club Terms & Conditions</a>, <a>Kicks Privacy Notice</a> and <a>Terms & Conditions</a></p>
 
-             <input type="checkbox" /><p>Keep me logged in - applies to all log in options below. More info</p>
+             <div style="display: flex; gap: 10px; padding: 20px 0px;">
+               <input  type="checkbox" style="display: block; width: 15px" />
+               <label>By clicking 'Log In' you agree to our website Kicks<a>Club Terms & Conditions</a>, <a>Kicks Privacy Notice</a> and <a>Terms & Conditions</a></label>
+              
+             </div>
+
+
+               <div style="display: flex; gap: 5px; padding: 20px 0px;">
+                 <input type="checkbox"  style="display: block; width: 15px;" />
+                 <label>Keep me logged in - applies to all log in options below. More info</label>
+               </div>
              
             <button class="registerBtn" type="submit">Register</button>
             </div>
@@ -106,17 +115,18 @@ const handleRegister = () => {
              display: flex;
              gap: 3px;
              width: 90%;
-             height: 900px;
-             margin: 10px auto;
+             height: 600px;
+             margin: 5px auto;
             padding: 20px;
-            border: 9px solid #ccc;
             border-radius: 5px;
            }
 
             .registerForm {
             width: 400px;
-            
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
             border: 1px solid #ccc;
             border-radius: 5px;
             }
@@ -136,6 +146,10 @@ const handleRegister = () => {
             border: 1px solid #ccc;
             border-radius: 5px;
             margin-top: 5px;
+            }
+
+            .tick{
+              
             }
 
             .Btns{
@@ -179,7 +193,7 @@ const handleRegister = () => {
             }
 
             .clubVoucher h2{
-              border: 3px solid tan;
+            
               padding: 5px 190px 50px 0px;
               font-size: 24px;
             }

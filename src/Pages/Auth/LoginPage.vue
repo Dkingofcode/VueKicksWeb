@@ -89,7 +89,6 @@ const handleLogin = () => {
 
 <style scoped>
 .LoginPage {
-  
   background-color: rgb(213, 213, 213);
   justify-content: center;
   align-items: center;
@@ -98,12 +97,11 @@ const handleLogin = () => {
 
            .Top{
              display: flex;
-             gap: 3px;
-             width: 100%;
-             height: 900px;
+             gap: 33px;
+             width: 90%;
+             height: 450px;
              margin: 10px auto;
             padding: 20px;
-            border: 9px solid #ccc;
             border-radius: 5px;
            }
 
@@ -113,7 +111,7 @@ const handleLogin = () => {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: white;
+  background-color: transparent;
 }
 
 .form-group {
@@ -168,6 +166,7 @@ button:hover {
   border-radius: 20px;
   background-color: white;
   width: 700px;
+  height: 300px;
   height: auto;
   padding: 30px;
   text-align: left;
@@ -188,6 +187,6 @@ button:hover {
 }
 
 .JoinClub {
-  margin: 20px 0px;
+  margin: 40px 0px 0px 0px;
 }
 </style>
